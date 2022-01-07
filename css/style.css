@@ -1,0 +1,195 @@
+.hero {
+  background-image: url(../task7images/hero-bg.png) !important;
+  height: 100vh;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  background-color: rgb(12,170,125);
+  padding: 20px;
+  border-radius: 5px;
+}
+.greenbrdr {
+  color: rgb(0, 247, 0);
+  height: 5px !important;
+  width: 15%;
+}
+.greenbrdr3 {
+  color: rgb(0, 247, 0);
+  height: 5px !important;
+  width: 5%;
+}
+.greenbrdr2 {
+  color: rgb(255, 255, 255);
+  height: 5px !important;
+  width: 5%;
+}
+.dot {
+  height: 15px;
+  width: 15px;
+  background-color: red;
+  border-radius: 50%;
+  display: inline-block;
+}
+.dot2 {
+  height: 15px;
+  width: 15px;
+  background-color: white;
+  border-radius: 50%;
+  display: inline-block;
+}
+.skills {
+  background-image: url(../task7images/skill-bg.jpg);
+}
+/* ------------------------------------------------------------ */
+.containerPortfolio {
+  position: relative;
+  width: 100%;
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: 0.5s ease;
+  backface-visibility: hidden;
+  border-radius: 10px;
+}
+
+.middle {
+  transition: 0.5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.containerPortfolio:hover .image {
+  opacity: 0.3;
+}
+
+.containerPortfolio:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  background-color: #04aa6d;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+}
+/* ------------------------------------------------------------ */
+.clients {
+  background-color: #f3f3f3;
+}
+/* --------------------------------------------- */
+.contactbg {
+  background-color: #0ca579;
+}
+.footer {
+  background-color: #211f34;
+}
+
+
+
+
+
+
+
+
+
+/* ---------------------------------------------------------------------- */
+/* // Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {  }
+@media (max-width: 767.98px) {
+  .leftCrselCont{
+    width: 70%;
+  }
+  
+  }
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {  }
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+
+ }
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {  }
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  
+
+}
+@media (max-width: 767.98px) {
+  .olfooter{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .olfooter li{
+    width: 18%;
+  }
+  }
+  @media (min-width: 992px) { 
+    .movedDiv{
+      position: relative;
+      left: 50px !important;
+      top: 40px;
+      bottom: 0;
+    }
+    .leftCrselCont{
+      width: 50%;
+    }
+   }
+   @media(max-width: 991.98px){
+    .carousel-control-next-icon,
+    .carousel-control-prev-icon{
+      display: none;
+    }
+   }
+
+
+
+
+
+
+
+   /* -------------------------------------------------- */
+   .up{
+    width: 80px;
+    height: 80px;
+    position: fixed;
+    bottom: 2%;
+    right: 2%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+}
+.up a {
+    color: rgb(12,170,125);
+    font-size: 60px;
+}
+
+.up a:hover{
+    color: #0798bc;
+}
+.card:hover{
+    transform: scale(1.1);
+    transition:all 3s;
+}
+
+  
